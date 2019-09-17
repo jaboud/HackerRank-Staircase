@@ -4,6 +4,10 @@ namespace HackerRank_Staircase
 {
     class Program
     {
+        static void Staircase(int n)
+        {
+            
+        }
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
