@@ -6,7 +6,9 @@ namespace HackerRank_Staircase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            Staircase(n);
         }
     }
 }
