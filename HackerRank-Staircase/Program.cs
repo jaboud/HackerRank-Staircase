@@ -22,7 +22,7 @@ namespace HackerRank_Staircase
                         Console.Write(" ");
                     }
                 }
-                //Writes new a line after checking for
+                //Writes new a line after checking for loop
                 Console.WriteLine("");
             }
         }
@@ -31,6 +31,8 @@ namespace HackerRank_Staircase
             int n = Convert.ToInt32(Console.ReadLine());
 
             Staircase(n);
+
+            Console.Read();
         }
     }
 }
