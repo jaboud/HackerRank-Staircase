@@ -22,6 +22,8 @@ namespace HackerRank_Staircase
                         Console.Write(" ");
                     }
                 }
+                //Writes new a line after checking for
+                Console.WriteLine("");
             }
         }
         static void Main(string[] args)
