@@ -6,8 +6,10 @@ namespace HackerRank_Staircase
     {
         static void Staircase(int n)
         {
-             //For loop starting with the rows which 'y' represents 
-            for (int y = 0; y < n; y++)
+            //For loop starting with the rows which 'y' represents
+            for (int y = n - 1; y >= 0; y--)
+            //for (int y = 0; y < n; y++)
+
             {
                 //Nested for loop starting with the columns which 'x' represents  
                 for (int x = 0; x < n; x++)
